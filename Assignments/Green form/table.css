@@ -1,0 +1,126 @@
+.container {
+    width: 100%;
+    height: 570px;
+    top: 10px;
+    left: 10px;
+}
+.central{
+    width: 100%;
+    height: 570px;
+    margin: auto;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: lightgreen;
+}
+
+.topSection {
+    width: 98%;
+    margin-left: 1%;
+    margin-top: 15px;
+    height: 25px;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    
+}
+.lowerSection {
+    width: 97.5%;
+    margin-left: 1%;
+    height: 515px;
+    background-color: white;
+    border: 2px solid green;
+}
+
+fieldset {
+    width: 90%;
+    background-color: cyan;
+    margin-left: 2.5%;
+}
+
+.address, .additional {
+    width: 100%;
+    margin-top: 10px;
+}
+.firstname, .lastname, .street, .city {
+    display: inline-flex;
+    width: 80%;
+    height: 20px;
+}
+
+.lastname, .street, .city {
+    margin-top: 5px;
+}
+
+.address input{
+    border: none;
+    border: 2px solid gray;
+    margin-left: 130px;
+}
+
+.street input {
+    margin-left: 160px;
+}
+
+.lastname input {
+    margin-left: 130.5px;
+}
+
+.city input {
+    margin-left: 169px;
+}
+.biography, .image, .ageGroup {
+    display: inline-flex;
+    width: 80%;
+    height: 20px;
+    
+}
+
+.image{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.image button {
+    margin-left: 158px;
+    margin-right: 10px;
+}
+
+.ageGroup{
+    margin-top: 20px;
+}
+
+#biography {
+    margin-left: 130px ;
+    height: 60px;
+}
+
+#agegroup {
+    margin-left: 123px;
+}
+
+.hobby {
+    display: inline-flex;
+}
+
+.hobby textarea {
+    margin-left: 143px;
+}
+
+.favourite {
+    margin-top: 20px;
+}
+
+.favourite select {
+    margin-left: 100px;
+
+}
+
+.Public{
+    display:inline-flex;
+    margin-top: 5px;
+}
+
+.Public textarea {
+    margin-left: 18px;
+}

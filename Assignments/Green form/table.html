@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>Document</title>
+</head>
+<body>
+      <div class="container">
+          <div class="central">
+              <div class="topSection">
+                  Grouped form controls with too long legend 
+              </div>
+              <div class="lowerSection">
+                  <div class="address">
+                      <fieldset>
+                          <legend>Your address</legend>
+                          <div class="firstname">
+                              <label for="firstName">First name</label>
+                              <input type="text" name="firstName">
+                          </div>
+                          <div class="lastname">
+                            <label for="lastName">Last name</label>
+                            <input type="text" name="lastName">
+                        </div>
+                        <div class="street">
+                            <label for="street">Street</label>
+                            <input type="text" name="street">
+                        </div>
+                        <div class="city">
+                            <label for="city">City</label> 
+                            <input type="text" name="city">
+                        </div>
+                      </fieldset>
+                  </div>
+                  <div class="additional">
+                      <fieldset>
+                          <legend>Additional details</legend>
+                          <div class="biography">
+                              <label for="biography">Biography</label>
+                              <textarea name="biography" id="biography" cols="30" rows="30"></textarea>
+                          </div>
+                          <div class="image">
+                              <label for="image">Image</label>
+                              <button>Choose File</button>
+                              <span>No file Chosen</span>
+                          </div>
+                          <div class="group">
+                              <label for="age">Age Group</label>   
+                              <select name="agegroup" id="agegroup">
+                                  <option value="age" selected>select age</option>
+                                  <option value="age">0-9</option>
+                                  <option value="age">10-19</option>
+                                  <option value="age">20-29</option>
+                                  <option value="age">30-39</option>
+                              </select>
+                          </div>
+                      </fieldset>
+                  </div>
+                  <div class="Interests">
+                      <fieldset>
+                          <legend>Interests</legend>
+                          <div class="hobby">
+                            <label for="hobbies">Hobbies</label>
+                            <textarea name="hobbies" id="hobbies" cols="10" rows="3"></textarea>
+                        </div>
+                        <div class="favourite">
+                            <label for="fourite_car">Favourite car?</label>
+                            <select name="car" id="car_type">
+                                <option value="carType" selected> Select car type</option>
+                                <option value="carType">Benz</option>
+                                <option value="carType">Volvo</option>
+                                <option value="carType">Toyota</option>
+                                <option value="carType">Renault</option>
+                            </select>
+                        </div>
+                        <div class="Public">
+                            <label for="Public">Favourite Public Transport?</label>
+                            <textarea name="public_transport" id="public_transport" cols="10" rows="3"></textarea>
+                        </div>
+                      </fieldset>
+
+                  </div>
+                  <!--<div class="movies">
+                      <fieldset>
+                          <legend>Movies</legend>
+                          <div class="genre">
+                              <label for="genre">Genre</label>
+
+                          </div>
+                      </fieldset>
+
+                  </div>-->
+              </div>
+          </div>
+      </div> 
+</body>
+</html>
