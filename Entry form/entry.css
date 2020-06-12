@@ -1,0 +1,66 @@
+.gender {
+  border: 1px solid rgba(151, 148, 148, 0.842);
+}
+.MALE,
+.FEMALE {
+  margin-right: 50px;
+}
+.Sname,
+.Gname,
+.GENDER,
+.DOB,
+.COUNTRY,
+.POR,
+.PHONE,
+.EMAIL,
+.SKILLS,
+.PROJECTS {
+  display: block;
+  color: rgb(107, 9, 107);
+  font-family: sans-serif;
+}
+
+.small {
+  color: grey;
+}
+.superscript {
+  color: red;
+}
+.Submit {
+  background-color: rgb(78, 4, 78);
+  border: none;
+  border-radius: 2px;
+  color: white;
+}
+.Cancel {
+  background-color: none;
+  border: 1px solid rgb(78, 4, 78);
+  border-radius: 2px;
+  color: rgb(78, 4, 78);
+  font-weight: 600;
+}
+h3 {
+  background-color: rgb(78, 4, 78);
+  color: white;
+  text-align: initial;
+  padding: 10px;
+  font-family: sans-serif;
+  border-radius: 2px;
+}
+p {
+  color: rgb(107, 9, 107);
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+/* .Sname-valid {
+    border: 1px solid green !important;
+  }
+  
+  .Sname-invalid {
+    border: 1px solid red !important;
+  }
+
+  .deactivated {
+    opacity: 0.3;
+  } */
